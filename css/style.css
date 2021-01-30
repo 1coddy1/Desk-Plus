@@ -721,6 +721,65 @@ body.lock {
   z-index: -10;
 }
 
+.furniture {
+  background-image: url(../images/D.svg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 232px;
+}
+
+.furniture__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.furniture__title {
+  font-size: 18px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 0.1em;
+}
+
+.furniture__subtitle {
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 64px;
+  color: #000000;
+}
+
+.furniture__subtitle:after {
+  margin-top: 10px;
+  margin-bottom: 17px;
+  content: '';
+  display: block;
+  width: 154px;
+  height: 6px;
+  background: #083C6E;
+}
+
+.furniture__text {
+  max-width: 68%;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #B1B6CA;
+}
+
+.furniture__button {
+  margin-top: 50px;
+}
+
+.furniture-bg {
+  top: 45%;
+  right: 14%;
+  position: absolute;
+  z-index: -10;
+}
+
 .hidden {
   display: none;
 }
