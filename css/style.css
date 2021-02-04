@@ -787,6 +787,10 @@ body.lock {
   width: 100%;
 }
 
+.advantages {
+  padding-bottom: 146px;
+}
+
 .advantages__title {
   font-size: 18px;
   line-height: 34px;
@@ -814,6 +818,7 @@ body.lock {
 }
 
 .advantages__col {
+  width: 357px;
   margin-top: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -835,7 +840,6 @@ body.lock {
 }
 
 .advantages__col-subtitle {
-  max-width: 56%;
   margin-top: 5px;
   font-family: 'Rubik';
   font-size: 18px;
