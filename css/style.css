@@ -936,6 +936,14 @@ body.lock {
   margin-bottom: 0;
 }
 
+.furniture,
+.video,
+.advantages,
+.promo,
+.footer {
+  display: none;
+}
+
 .hidden {
   display: none;
 }
@@ -971,6 +979,10 @@ body.lock {
 }
 
 @media only screen and (max-width: 1200px) {
+  .header__subtitle {
+    min-width: 56%;
+  }
+
   .container {
     max-width: 940px;
   }
@@ -983,8 +995,56 @@ body.lock {
 }
 
 @media only screen and (max-width: 768px) {
+  .header {
+    background: none;
+  }
+
+  .header__logo {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .header__title {
+    line-height: 74px;
+    margin-top: 168px;
+    text-align: center;
+  }
+
+  .header__subtitle {
+    max-width: 100%;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+  }
+
+  .header__search {
+    text-align: center;
+  }
+
   .container {
     max-width: 550px;
+  }
+}
+
+@media only screen and (max-width: 487px) {
+  .header__title {
+    font-size: 38px;
+  }
+
+  .header__search-input {
+    max-width: 298px;
+  }
+
+  .header__search-button {
+    margin-top: 15px;
+  }
+
+  .header__search {
+    margin-top: 12px;
   }
 }
 
