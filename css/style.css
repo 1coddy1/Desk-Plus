@@ -629,7 +629,6 @@ body.lock {
 }
 
 .kits {
-  position: relative;
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -968,7 +967,7 @@ body.lock {
 
 @media only screen and (max-width: 1200px) {
   .header__subtitle {
-    min-width: 56%;
+    max-width: 56%;
   }
 
   .kits__col {
