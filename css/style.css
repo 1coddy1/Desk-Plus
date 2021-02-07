@@ -644,22 +644,25 @@ body.lock {
 }
 
 .kits__col {
-  min-width: 357px;
+  width: 357px;
 }
 
 .kits__col-first {
   background-image: url(../images/kits-col-1.svg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .kits__col-second {
   background-image: url(../images/kits-col-2.svg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .kits__col-third {
   background-image: url(../images/kits-col-3.svg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .kits__col-sale {
@@ -712,13 +715,6 @@ body.lock {
   height: 40px;
   border: 1.5px solid #FFFFFF;
   border-radius: 5px;
-}
-
-.kits-bg {
-  position: absolute;
-  top: 29%;
-  left: 15%;
-  z-index: -10;
 }
 
 .furniture {
@@ -983,6 +979,15 @@ body.lock {
     min-width: 56%;
   }
 
+  .kits__col {
+    width: 48%;
+  }
+
+  .kits__col-third {
+    display: block;
+    margin: 50px auto;
+  }
+
   .container {
     max-width: 940px;
   }
@@ -1023,6 +1028,15 @@ body.lock {
 
   .header__search {
     text-align: center;
+  }
+
+  .kits__col {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .kits__col:first-child {
+    margin-top: 0;
   }
 
   .container {
