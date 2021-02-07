@@ -924,7 +924,6 @@ body.lock {
   margin-bottom: 0;
 }
 
-.promo,
 .footer {
   display: none;
 }
@@ -994,6 +993,10 @@ body.lock {
     margin: 65px auto 0px;
   }
 
+  .promo__text {
+    max-width: 100%;
+  }
+
   .container {
     max-width: 940px;
   }
@@ -1030,6 +1033,43 @@ body.lock {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+  }
+
+  .promo__inner {
+    display: block;
+  }
+
+  .promo__img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .promo__right {
+    margin-top: 115px;
+    margin-left: 0;
+  }
+
+  .promo__title {
+    text-align: center;
+  }
+
+  .promo__subtitle {
+    text-align: center;
+  }
+
+  .promo__subtitle:after {
+    margin: 15px auto 17px;
+  }
+
+  .promo__text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .promo__button {
+    margin: 50px auto;
+    display: block;
   }
 
   .container {
@@ -1118,6 +1158,10 @@ body.lock {
 
   .advantages__subtitle {
     font-size: 36px;
+  }
+
+  .promo__subtitle {
+    font-size: 45px;
   }
 }
 
