@@ -924,10 +924,6 @@ body.lock {
   margin-bottom: 0;
 }
 
-.footer {
-  display: none;
-}
-
 .hidden {
   display: none;
 }
@@ -1134,6 +1130,31 @@ body.lock {
     width: 100%;
   }
 
+  .promo {
+    padding-bottom: 146px;
+  }
+
+  .footer__inner {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__col-title {
+    font-size: 28px;
+  }
+
+  .footer__col-subtitle {
+    font-size: 21px;
+  }
+
+  .footer__col {
+    margin-top: 50px;
+  }
+
+  .footer__col:first-child {
+    margin-top: 0;
+  }
+
   .container {
     max-width: 550px;
   }
@@ -1141,6 +1162,7 @@ body.lock {
 
 @media only screen and (max-width: 487px) {
   .header__title {
+    margin-top: 117px;
     font-size: 38px;
   }
 
