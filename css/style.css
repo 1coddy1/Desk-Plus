@@ -768,13 +768,6 @@ body.lock {
   margin-top: 50px;
 }
 
-.furniture-bg {
-  top: 45%;
-  right: 14%;
-  position: absolute;
-  z-index: -10;
-}
-
 .video {
   padding-bottom: 168px;
 }
@@ -932,7 +925,6 @@ body.lock {
   margin-bottom: 0;
 }
 
-.furniture,
 .video,
 .advantages,
 .promo,
@@ -988,12 +980,48 @@ body.lock {
     margin: 50px auto;
   }
 
+  .furniture__text {
+    max-width: 97%;
+  }
+
   .container {
     max-width: 940px;
   }
 }
 
 @media only screen and (max-width: 992px) {
+  .furniture__inner {
+    display: block;
+  }
+
+  .furniture__text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .furniture__title {
+    text-align: center;
+  }
+
+  .furniture__subtitle {
+    text-align: center;
+  }
+
+  .furniture__subtitle:after {
+    margin: 10px auto 17px;
+  }
+
+  .furniture__button {
+    display: block;
+    margin: 35px auto;
+  }
+
+  .furniture__right-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
   .container {
     max-width: 790px;
   }
